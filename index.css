@@ -1,0 +1,50 @@
+body {
+    background-image: url("numeros.jpg");
+    height: 100vh;
+    background-size: cover;
+    font: bold 10pt arial;
+    text-align: center;
+}
+
+.page {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px black solid;
+    border-radius: 4px;
+    max-width: 80%;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: solid 1px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 5px auto;
+}
+
+#increment-btn {
+    background: #c652d7f2;
+}
+
+#save-btn {
+    background: lightgreen;
+}
+
+p {
+    font-size: 15pt;
+}
